@@ -5,74 +5,72 @@ on:
     - cron: "*/5 * * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  update-spotify:
+  spotify:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Get Spotify Token
+      - name: Get token
         id: token
         run: |
-          RESPONSE=$(curl -s -X POST "https://accounts.spotify.com/api/token" \
+          curl -s -X POST "https://accounts.spotify.com/api/token" \
             -H "Content-Type: application/x-www-form-urlencoded" \
             -d "grant_type=refresh_token&refresh_token=${{ secrets.SPOTIFY_REFRESH_TOKEN }}" \
-            --user "${{ secrets.SPOTIFY_CLIENT_ID }}:${{ secrets.SPOTIFY_CLIENT_SECRET }}")
-          ACCESS_TOKEN=$(echo "$RESPONSE" | jq -r '.access_token')
-          echo "access_token=$ACCESS_TOKEN" >> $GITHUB_OUTPUT
+            --user "${{ secrets.SPOTIFY_CLIENT_ID }}:${{ secrets.SPOTIFY_CLIENT_SECRET }}" \
+            | jq -r '.access_token' > access_token.txt
 
-      - name: Get Currently Playing
-        id: nowplaying
+      - name: Get currently playing
         run: |
-          RESPONSE=$(curl -s -X GET "https://api.spotify.com/v1/me/player/currently-playing" \
-            -H "Authorization: Bearer ${{ steps.token.outputs.access_token }}")
-          echo "response=$RESPONSE" >> $GITHUB_OUTPUT
+          TOKEN=$(cat access_token.txt)
+          curl -s -X GET "https://api.spotify.com/v1/me/player/currently-playing" \
+            -H "Authorization: Bearer $TOKEN" > response.json
+          cat response.json | jq -r '.item.name + " — " + .item.artists[0].name' 2>/dev/null || echo "nothing playing"
 
       - name: Generate SVG
         run: |
-          RESPONSE='${{ steps.nowplaying.outputs.response }}'
-          if [ "$RESPONSE" == "null" ] || [ -z "$RESPONSE" ]; then
-            cat > spotify.svg << 'EOF'
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="80" viewBox="0 0 400 80">
-  <rect width="400" height="80" rx="10" fill="#1a1a2e"/>
-  <text x="20" y="35" font-family="sans-serif" font-size="12" fill="#6a0dad">SPOTIFY</text>
-  <text x="20" y="55" font-family="sans-serif" font-size="14" fill="#c9d1d9">Not Playing</text>
-  <circle cx="370" cy="40" r="12" fill="#1DB954"/>
-  <rect x="364" y="38" width="4" height="4" rx="1" fill="#fff"/>
-  <rect x="370" y="35" width="4" height="10" rx="1" fill="#fff"/>
-  <rect x="376" y="38" width="4" height="4" rx="1" fill="#fff"/>
+          mkdir -p dist
+          if [ ! -s response.json ] || [ "$(cat response.json)" = "null" ]; then
+            cat > dist/spotify.svg << 'EOF'
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="90" viewBox="0 0 400 90">
+  <rect width="400" height="90" rx="14" fill="#1a1a2e"/>
+  <rect x="15" y="15" width="60" height="60" rx="8" fill="#2a2a4e"/>
+  <text x="90" y="38" font-family="system-ui,sans-serif" font-size="12" fill="#6a0dad" font-weight="bold" letter-spacing="2">SPOTIFY</text>
+  <text x="90" y="55" font-family="system-ui,sans-serif" font-size="14" fill="#8b949e">Paused</text>
+  <text x="90" y="70" font-family="system-ui,sans-serif" font-size="11" fill="#484f58">No track playing right now</text>
+  <circle cx="350" cy="45" r="15" fill="#1DB954"/>
+  <polygon points="346,38 346,52 356,45" fill="#000"/>
 </svg>
 EOF
           else
-            ARTIST=$(echo "$RESPONSE" | jq -r '.item.artists[0].name')
-            TRACK=$(echo "$RESPONSE" | jq -r '.item.name')
-            ALBUM_ART=$(echo "$RESPONSE" | jq -r '.item.album.images[0].url')
-            PROGRESS=$(echo "$RESPONSE" | jq -r '.progress_ms')
-            DURATION=$(echo "$RESPONSE" | jq -r '.item.duration_ms')
-            PERCENT=$((PROGRESS * 100 / DURATION))
-            cat > spotify.svg << SVGEOF
+            ARTIST=$(jq -r '.item.artists[0].name' response.json)
+            TRACK=$(jq -r '.item.name' response.json)
+            IMG=$(jq -r '.item.album.images[0].url' response.json)
+            cat > dist/spotify.svg << SVGEOF
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="0 0 400 100">
-  <defs>
-    <clipPath id="cover"><rect width="60" height="60" rx="5"/></clipPath>
-  </defs>
-  <rect width="400" height="100" rx="10" fill="#1a1a2e"/>
-  <image href="$ALBUM_ART" x="15" y="20" width="60" height="60" clip-path="url(#cover)"/>
-  <text x="85" y="38" font-family="sans-serif" font-size="13" fill="#6a0dad">NOW PLAYING</text>
-  <text x="85" y="55" font-family="sans-serif" font-size="14" font-weight="bold" fill="#fff">$TRACK</text>
-  <text x="85" y="70" font-family="sans-serif" font-size="12" fill="#c9d1d9">$ARTIST</text>
-  <circle cx="370" cy="50" r="14" fill="#1DB954"/>
-  <polygon points="366,44 366,56 378,50" fill="#000"/>
+  <defs><clipPath id="c"><rect width="60" height="60" rx="8"/></clipPath></defs>
+  <rect width="400" height="100" rx="14" fill="#1a1a2e"/>
+  <image href="$IMG" x="15" y="20" width="60" height="60" clip-path="url(#c)"/>
+  <text x="90" y="40" font-family="system-ui,sans-serif" font-size="12" fill="#6a0dad" font-weight="bold" letter-spacing="2">NOW PLAYING</text>
+  <text x="90" y="58" font-family="system-ui,sans-serif" font-size="14" fill="#ffffff" font-weight="bold">$TRACK</text>
+  <text x="90" y="74" font-family="system-ui,sans-serif" font-size="12" fill="#8b949e">$ARTIST</text>
+  <circle cx="350" cy="50" r="15" fill="#1DB954"/>
+  <polygon points="346,43 346,57 358,50" fill="#000"/>
 </svg>
 SVGEOF
           fi
-          mkdir -p dist
-          cp spotify.svg dist/spotify.svg
 
-      - name: Commit & Push
+      - name: Commit and push
         run: |
           git config user.name "ichramal"
           git config user.email "ichramal.dev@gmail.com"
           git add dist/spotify.svg
-          git diff --quiet && git diff --staged --quiet || git commit -m "update spotify now playing"
-          git push
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "update spotify track"
+            git push
+          fi
