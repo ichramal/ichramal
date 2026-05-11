@@ -1,11 +1,11 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,6,8&height=4&width=100%" alt="divider"/>
-  <br><br>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=1&pause=99999&color=8A2BE2&center=true&vCenter=true&width=300&height=50&lines=ichramal" alt="name"/>
-  <br>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=400&size=16&duration=3500&pause=700&color=8A2BE2&center=true&vCenter=true&width=500&height=40&lines=Full-Stack+Developer;API+Architect;Automation+Engineer;Security+Researcher;Bug+Bounty+Hunter" alt="typing"/>
-  <br><br>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,6,8&height=4&width=100%" alt="divider"/>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/ichramal-8A2BE2?style=flat-square&labelColor=1a1a2e&color=6a0dad" height="40">
 </div>
 
 <br>
@@ -16,34 +16,46 @@
   <a href="https://github.com/ichramal"><img src="https://img.shields.io/badge/GitHub-ichramal-6a0dad?style=flat-square&logo=github&logoColor=white"></a>
 </p>
 
+<p align="center">
+  <sub>Full-Stack Developer · Security Researcher · Automation Engineer</sub>
+</p>
+
 <br>
 
-### About Me
+---
 
-I build web applications, design APIs, and develop automation solutions. I also hunt bugs and research vulnerabilities as a security researcher.
+### Profile
 
-<table width="100%">
+Full-stack developer and security researcher with experience in web development, API architecture, automation, and database management. I design and build scalable web applications, develop automation pipelines, and hunt for vulnerabilities through bug bounty programs.
+
+<table>
   <tr>
-    <td width="50%">
-      <b>Web Development</b> — HTML, CSS, JavaScript, PHP, React, Node.js
-      <br><br>
-      <b>API Architecture</b> — RESTful services, third-party integrations, microservices
-      <br><br>
-      <b>Automation</b> — Python, Bash, PowerShell, CI/CD pipelines
-    </td>
-    <td width="50%">
-      <b>Database Management</b> — MySQL, PostgreSQL, MongoDB, Redis
-      <br><br>
-      <b>Security Research</b> — Bug bounty hunting, vulnerability assessment, pentesting
-      <br><br>
-      <b>DevOps</b> — Docker, Linux, Nginx, Apache, Cloudflare
-    </td>
+    <td><b>Web</b></td>
+    <td>HTML, CSS, JavaScript, PHP, Bootstrap, Tailwind, React</td>
+  </tr>
+  <tr>
+    <td><b>Backend</b></td>
+    <td>Node.js, Express, Python, Bash, PowerShell</td>
+  </tr>
+  <tr>
+    <td><b>Database</b></td>
+    <td>MySQL, PostgreSQL, MongoDB, MariaDB, SQLite, Redis</td>
+  </tr>
+  <tr>
+    <td><b>Security</b></td>
+    <td>Kali Linux, Burp Suite, Nmap, Wireshark, Metasploit</td>
+  </tr>
+  <tr>
+    <td><b>DevOps</b></td>
+    <td>Docker, Linux, Nginx, Apache, Cloudflare, Git</td>
   </tr>
 </table>
 
 <br>
 
-### Tech Stack
+---
+
+### Technologies
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white">
@@ -68,24 +80,51 @@ I build web applications, design APIs, and develop automation solutions. I also 
   <img src="https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white">
   <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white">
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white">
+  <img src="https://img.shields.io/badge/cURL-073551?style=flat-square&logo=curl&logoColor=white">
 </p>
 
 <br>
 
-### GitHub Statistics
+---
+
+### GitHub Activity
 
 <div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=ichramal&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d1117&count_private=true&include_all_commits=true&icon_color=8a2be2&title_color=8a2be2&text_color=c9d1d9">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ichramal&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=8a2be2&text_color=c9d1d9&langs_count=6">
+  <a href="https://github.com/ichramal">
+    <img height="160em" src="https://github-readme-stats.vercel.app/api?username=ichramal&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d1117&count_private=true&include_all_commits=true&icon_color=8a2be2&title_color=8a2be2&text_color=c9d1d9">
+    <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ichramal&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=8a2be2&text_color=c9d1d9&langs_count=6">
+  </a>
 </div>
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=ichramal&theme=midnight-purple&hide_border=true&background=0d1117&fire=8a2be2&ring=8a2be2&currStreakLabel=8a2be2&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9">
 </div>
 
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=ichramal&theme=radical&no-frame=true&row=2&column=4&margin-w=15&margin-h=15&no-bg=true" width="100%">
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ichramal&theme=react-dark&bg_color=0d1117&hide_border=true&area=true&color=8a2be2&line=8a2be2&point=c9d1d9&area_color=8a2be2" width="100%">
+</div>
+
 <br>
 
-### Security & Bug Bounty
+---
+
+### Contribution Snake
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ichramal/ichramal/output/github-contribution-grid-snake-dark.svg" width="100%">
+</div>
+
+<sub>*Run the workflow in Actions tab to generate this animation*</sub>
+
+<br>
+
+---
+
+### Security Research
 
 <p align="center">
   <img src="https://img.shields.io/badge/TryHackMe-212c42?style=flat-square&logo=tryhackme&logoColor=white">
@@ -104,27 +143,13 @@ Reverse Engineering ██████████████████░░
 
 <br>
 
-### Contributions
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ichramal&theme=react-dark&bg_color=0d1117&hide_border=true&area=true&color=8a2be2&line=8a2be2&point=c9d1d9&area_color=8a2be2" width="100%">
-</div>
-
-<br>
-
-### Contact
-
-<p align="center">
-  <a href="https://ichramal.ct.ws"><img src="https://img.shields.io/badge/ichramal.ct.ws-6a0dad?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1a2e"></a>
-  <a href="mailto:ichramal.dev@gmail.com"><img src="https://img.shields.io/badge/ichramal.dev%40gmail.com-6a0dad?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e"></a>
-  <a href="https://github.com/ichramal"><img src="https://img.shields.io/badge/github.com%2Fichramal-6a0dad?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e"></a>
-</p>
-
-<br>
+---
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,6,8&height=4&width=100%" alt="divider"/>
   <br><br>
   <img src="https://komarev.com/ghpvc/?username=ichramal&label=visitors&color=6a0dad&style=flat-square" alt="visitors">
   <img src="https://img.shields.io/github/followers/ichramal?label=followers&style=flat-square&color=6a0dad" alt="followers">
+  <br><br>
+  <sub>ichramal</sub>
 </div>
