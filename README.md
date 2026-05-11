@@ -96,7 +96,9 @@ Building web applications, designing APIs, managing databases, and writing autom
 ### Currently Playing
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ichramal/ichramal/main/dist/spotify.svg" width="400">
+  <a href="https://open.spotify.com/track/7uLz3wJ1fVwL7JfScdMX6R" target="_blank">
+    <img src="https://raw.githubusercontent.com/ichramal/ichramal/main/dist/spotify.svg" width="400">
+  </a>
 </div>
 
 ---
