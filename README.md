@@ -1,14 +1,9 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,6,8&height=4&width=100%" alt="divider"/>
+  <br><br>
+  <h1>ichramal</h1>
+  <p><sub>Full-Stack Developer · Security Researcher · Automation Engineer</sub></p>
 </div>
-
-<br>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/ichramal-8A2BE2?style=flat-square&labelColor=1a1a2e&color=6a0dad" height="40">
-</div>
-
-<br>
 
 <p align="center">
   <a href="https://ichramal.ct.ws"><img src="https://img.shields.io/badge/Website-ichramal.ct.ws-6a0dad?style=flat-square&logo=googlechrome&logoColor=white"></a>
@@ -16,78 +11,36 @@
   <a href="https://github.com/ichramal"><img src="https://img.shields.io/badge/GitHub-ichramal-6a0dad?style=flat-square&logo=github&logoColor=white"></a>
 </p>
 
-<p align="center">
-  <sub>Full-Stack Developer · Security Researcher · Automation Engineer</sub>
-</p>
-
 <br>
 
 ---
 
-### Profile
+### About
 
-Full-stack developer and security researcher with experience in web development, API architecture, automation, and database management. I design and build scalable web applications, develop automation pipelines, and hunt for vulnerabilities through bug bounty programs.
-
-<table>
-  <tr>
-    <td><b>Web</b></td>
-    <td>HTML, CSS, JavaScript, PHP, Bootstrap, Tailwind, React</td>
-  </tr>
-  <tr>
-    <td><b>Backend</b></td>
-    <td>Node.js, Express, Python, Bash, PowerShell</td>
-  </tr>
-  <tr>
-    <td><b>Database</b></td>
-    <td>MySQL, PostgreSQL, MongoDB, MariaDB, SQLite, Redis</td>
-  </tr>
-  <tr>
-    <td><b>Security</b></td>
-    <td>Kali Linux, Burp Suite, Nmap, Wireshark, Metasploit</td>
-  </tr>
-  <tr>
-    <td><b>DevOps</b></td>
-    <td>Docker, Linux, Nginx, Apache, Cloudflare, Git</td>
-  </tr>
-</table>
-
-<br>
+Building web applications, designing APIs, managing databases, and writing automation scripts. Also active in bug bounty and security research.
 
 ---
 
-### Technologies
+### Tech Stack
 
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-  <br>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white">
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
-  <br>
-  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white">
-  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white">
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white">
-  <img src="https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white">
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white">
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white">
-  <img src="https://img.shields.io/badge/cURL-073551?style=flat-square&logo=curl&logoColor=white">
-</p>
+**Frontend**  
+<code>HTML5 CSS3 JavaScript PHP Bootstrap Tailwind React</code>
 
-<br>
+**Backend & API**  
+<code>Node.js Express Python Bash PowerShell cURL</code>
+
+**Database**  
+<code>MySQL PostgreSQL MongoDB MariaDB SQLite Redis</code>
+
+**Security**  
+<code>Kali Linux Burp Suite Nmap Wireshark Metasploit</code>
+
+**Infrastructure**  
+<code>Docker Linux Nginx Apache Cloudflare Git Postman</code>
 
 ---
 
-### GitHub Activity
+### GitHub Analytics
 
 <div align="center">
   <a href="https://github.com/ichramal">
@@ -108,8 +61,6 @@ Full-stack developer and security researcher with experience in web development,
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ichramal&theme=react-dark&bg_color=0d1117&hide_border=true&area=true&color=8a2be2&line=8a2be2&point=c9d1d9&area_color=8a2be2" width="100%">
 </div>
 
-<br>
-
 ---
 
 ### Contribution Snake
@@ -118,9 +69,7 @@ Full-stack developer and security researcher with experience in web development,
   <img src="https://raw.githubusercontent.com/ichramal/ichramal/output/github-contribution-grid-snake-dark.svg" width="100%">
 </div>
 
-<sub>*Run the workflow in Actions tab to generate this animation*</sub>
-
-<br>
+<sub>Run the workflow in Actions tab to generate. Updates daily via GitHub Actions.</sub>
 
 ---
 
@@ -133,15 +82,13 @@ Full-stack developer and security researcher with experience in web development,
   <img src="https://img.shields.io/badge/HackerOne-494649?style=flat-square&logo=hackerone&logoColor=white">
 </p>
 
-```text
+```
 OWASP Top 10        ████████████████████░  95%
 Web Application     ████████████████████░  95%
 Network Security    ███████████████████░░  88%
 Social Engineering  ████████████████████░  92%
 Reverse Engineering ██████████████████░░░  82%
 ```
-
-<br>
 
 ---
 
@@ -150,6 +97,4 @@ Reverse Engineering ██████████████████░░
   <br><br>
   <img src="https://komarev.com/ghpvc/?username=ichramal&label=visitors&color=6a0dad&style=flat-square" alt="visitors">
   <img src="https://img.shields.io/github/followers/ichramal?label=followers&style=flat-square&color=6a0dad" alt="followers">
-  <br><br>
-  <sub>ichramal</sub>
 </div>
