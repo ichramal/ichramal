@@ -1,83 +1,25 @@
 name: Spotify Now Playing
-
 on:
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   spotify:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Get token
-        id: token
-        run: |-
-          curl -s -X POST "https://accounts.spotify.com/api/token" \
-            -H "Content-Type: application/x-www-form-urlencoded" \
-            -d "grant_type=refresh_token&refresh_token=${{ secrets.SPOTIFY_REFRESH_TOKEN }}" \
-            --user "${{ secrets.SPOTIFY_CLIENT_ID }}:${{ secrets.SPOTIFY_CLIENT_SECRET }}" \
-            | jq -r '.access_token' > access_token.txt
-
-      - name: Get currently playing
-        run: |-
-          TOKEN=$(cat access_token.txt)
-          curl -s -X GET "https://api.spotify.com/v1/me/player/currently-playing" \
-            -H "Authorization: Bearer $TOKEN" > response.json
-
-      - name: Parse response
-        run: |-
-          mkdir -p dist
-          if grep -q '"is_playing":true' response.json 2>/dev/null; then
-            jq -r '.item.artists | first | .name' response.json > artist.txt
-            jq -r '.item.name' response.json > track.txt
-            jq -r '.item.album.images | first | .url' response.json > img.txt
-            echo "playing now"
-          else
-            echo "paused" > state.txt
-            echo "no track"
-          fi
-
-      - name: Build SVG
-        run: |-
-          if [ -f state.txt ]; then
-            echo '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="90" viewBox="0 0 400 90">' > dist/spotify.svg
-            echo '<rect width="400" height="90" rx="14" fill="#1a1a2e"/>' >> dist/spotify.svg
-            echo '<rect x="15" y="15" width="60" height="60" rx="8" fill="#2a2a4e"/>' >> dist/spotify.svg
-            echo '<text x="90" y="38" font-family="system-ui,sans-serif" font-size="12" fill="#6a0dad" font-weight="bold" letter-spacing="2">SPOTIFY</text>' >> dist/spotify.svg
-            echo '<text x="90" y="55" font-family="system-ui,sans-serif" font-size="14" fill="#8b949e">Paused</text>' >> dist/spotify.svg
-            echo '<text x="90" y="70" font-family="system-ui,sans-serif" font-size="11" fill="#484f58">No track playing right now</text>' >> dist/spotify.svg
-            echo '<circle cx="350" cy="45" r="15" fill="#1DB954"/>' >> dist/spotify.svg
-            echo '<polygon points="346,38 346,52 356,45" fill="#000"/>' >> dist/spotify.svg
-            echo '</svg>' >> dist/spotify.svg
-          else
-            IMG=$(cat img.txt)
-            TRACK=$(cat track.txt)
-            ARTIST=$(cat artist.txt)
-            echo '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="0 0 400 100">' > dist/spotify.svg
-            echo '<defs><clipPath id="c"><rect width="60" height="60" rx="8"/></clipPath></defs>' >> dist/spotify.svg
-            echo '<rect width="400" height="100" rx="14" fill="#1a1a2e"/>' >> dist/spotify.svg
-            echo '<image href="'$IMG'" x="15" y="20" width="60" height="60" clip-path="url(#c)"/>' >> dist/spotify.svg
-            echo '<text x="90" y="40" font-family="system-ui,sans-serif" font-size="12" fill="#6a0dad" font-weight="bold" letter-spacing="2">NOW PLAYING</text>' >> dist/spotify.svg
-            echo '<text x="90" y="58" font-family="system-ui,sans-serif" font-size="14" fill="#ffffff" font-weight="bold">'$TRACK'</text>' >> dist/spotify.svg
-            echo '<text x="90" y="74" font-family="system-ui,sans-serif" font-size="12" fill="#8b949e">'$ARTIST'</text>' >> dist/spotify.svg
-            echo '<circle cx="350" cy="50" r="15" fill="#1DB954"/>' >> dist/spotify.svg
-            echo '<polygon points="346,43 346,57 358,50" fill="#000"/>' >> dist/spotify.svg
-            echo '</svg>' >> dist/spotify.svg
-          fi
-
+      - name: Run spotify script
+        run: bash .github/scripts/spotify.sh
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
       - name: Commit and push
-        run: |-
+        run: |
           git config user.name "ichramal"
           git config user.email "ichramal.dev@gmail.com"
           git add dist/spotify.svg
-          if git diff --cached --quiet; then
-            echo "no changes"
-          else
-            git commit -m "update spotify track"
-            git push
-          fi
+          if git diff --cached --quiet; then echo "no changes"
+          else git commit -m "update spotify track" && git push; fi
