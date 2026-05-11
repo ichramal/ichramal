@@ -16,7 +16,7 @@ jobs:
 
       - name: Get token
         id: token
-        run: |
+        run: |-
           curl -s -X POST "https://accounts.spotify.com/api/token" \
             -H "Content-Type: application/x-www-form-urlencoded" \
             -d "grant_type=refresh_token&refresh_token=${{ secrets.SPOTIFY_REFRESH_TOKEN }}" \
@@ -24,31 +24,27 @@ jobs:
             | jq -r '.access_token' > access_token.txt
 
       - name: Get currently playing
-        run: |
+        run: |-
           TOKEN=$(cat access_token.txt)
           curl -s -X GET "https://api.spotify.com/v1/me/player/currently-playing" \
             -H "Authorization: Bearer $TOKEN" > response.json
 
-      - name: Generate SVG
-        run: |
+      - name: Parse response
+        run: |-
           mkdir -p dist
           if grep -q '"is_playing":true' response.json 2>/dev/null; then
-            ARTIST=$(jq -r '.item.artists[0].name' response.json)
-            TRACK=$(jq -r '.item.name' response.json)
-            IMG=$(jq -r '.item.album.images[0].url' response.json)
-            jq -n --arg img "$IMG" --arg track "$TRACK" --arg artist "$ARTIST" '{
-              "img": $img, "track": $track, "artist": $artist
-            }' > meta.json
-            echo "playing: $TRACK - $ARTIST"
+            jq -r '.item.artists | first | .name' response.json > artist.txt
+            jq -r '.item.name' response.json > track.txt
+            jq -r '.item.album.images | first | .url' response.json > img.txt
+            echo "playing now"
           else
-            echo '{"playing":false}' > meta.json
-            echo "not playing"
+            echo "paused" > state.txt
+            echo "no track"
           fi
 
-      - name: Render SVG
-        run: |
-          mkdir -p dist
-          if [ "$(jq -r '.playing' meta.json 2>/dev/null)" = "false" ] || [ ! -f meta.json ]; then
+      - name: Build SVG
+        run: |-
+          if [ -f state.txt ]; then
             echo '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="90" viewBox="0 0 400 90">' > dist/spotify.svg
             echo '<rect width="400" height="90" rx="14" fill="#1a1a2e"/>' >> dist/spotify.svg
             echo '<rect x="15" y="15" width="60" height="60" rx="8" fill="#2a2a4e"/>' >> dist/spotify.svg
@@ -59,23 +55,23 @@ jobs:
             echo '<polygon points="346,38 346,52 356,45" fill="#000"/>' >> dist/spotify.svg
             echo '</svg>' >> dist/spotify.svg
           else
-            IMG=$(jq -r '.img' meta.json)
-            TRACK=$(jq -r '.track' meta.json)
-            ARTIST=$(jq -r '.artist' meta.json)
+            IMG=$(cat img.txt)
+            TRACK=$(cat track.txt)
+            ARTIST=$(cat artist.txt)
             echo '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="0 0 400 100">' > dist/spotify.svg
             echo '<defs><clipPath id="c"><rect width="60" height="60" rx="8"/></clipPath></defs>' >> dist/spotify.svg
             echo '<rect width="400" height="100" rx="14" fill="#1a1a2e"/>' >> dist/spotify.svg
-            echo "<image href=\"$IMG\" x=\"15\" y=\"20\" width=\"60\" height=\"60\" clip-path=\"url(#c)\"/>" >> dist/spotify.svg
+            echo '<image href="'$IMG'" x="15" y="20" width="60" height="60" clip-path="url(#c)"/>' >> dist/spotify.svg
             echo '<text x="90" y="40" font-family="system-ui,sans-serif" font-size="12" fill="#6a0dad" font-weight="bold" letter-spacing="2">NOW PLAYING</text>' >> dist/spotify.svg
-            echo "<text x=\"90\" y=\"58\" font-family=\"system-ui,sans-serif\" font-size=\"14\" fill=\"#ffffff\" font-weight=\"bold\">$TRACK</text>" >> dist/spotify.svg
-            echo "<text x=\"90\" y=\"74\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#8b949e\">$ARTIST</text>" >> dist/spotify.svg
+            echo '<text x="90" y="58" font-family="system-ui,sans-serif" font-size="14" fill="#ffffff" font-weight="bold">'$TRACK'</text>' >> dist/spotify.svg
+            echo '<text x="90" y="74" font-family="system-ui,sans-serif" font-size="12" fill="#8b949e">'$ARTIST'</text>' >> dist/spotify.svg
             echo '<circle cx="350" cy="50" r="15" fill="#1DB954"/>' >> dist/spotify.svg
             echo '<polygon points="346,43 346,57 358,50" fill="#000"/>' >> dist/spotify.svg
             echo '</svg>' >> dist/spotify.svg
           fi
 
       - name: Commit and push
-        run: |
+        run: |-
           git config user.name "ichramal"
           git config user.email "ichramal.dev@gmail.com"
           git add dist/spotify.svg
