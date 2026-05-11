@@ -19,7 +19,7 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake-dark.gif?palette=github-dark
+            dist/github-contribution-grid-snake-dark.gif?color_snake=#6a0dad&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353&color_background=#0d1117
 
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v3
