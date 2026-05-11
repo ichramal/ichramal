@@ -1,22 +1,14 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,6,8&height=4&width=100%">
   <br><br>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,6,8&height=50&text=ichramal&fontSize=30&fontAlignY=32&animation=twinkling&fontColor=fff">
-</div>
-
-<br>
-
-<p align="center">
-  <sub>Full-Stack Developer · Security Researcher · Automation Engineer</sub>
-</p>
-
-<br>
-
-<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,6,8&height=60&text=ichramal&fontSize=36&fontAlignY=34&animation=twinkling&fontColor=fff">
+  <br><br>
+  <sub>Full-Stack Developer  ·  Security Researcher  ·  Automation Engineer</sub>
+  <br><br>
   <a href="https://ichramal.ct.ws"><img src="https://img.shields.io/badge/Website-ichramal.ct.ws-6a0dad?style=flat-square&logo=googlechrome&logoColor=white"></a>
   <a href="mailto:ichramal.dev@gmail.com"><img src="https://img.shields.io/badge/Email-ichramal.dev%40gmail.com-6a0dad?style=flat-square&logo=gmail&logoColor=white"></a>
   <a href="https://github.com/ichramal"><img src="https://img.shields.io/badge/GitHub-ichramal-6a0dad?style=flat-square&logo=github&logoColor=white"></a>
-</p>
+</div>
 
 <br>
 
@@ -89,6 +81,14 @@ Building web applications, designing APIs, managing databases, and writing autom
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ichramal&theme=react-dark&bg_color=0d1117&hide_border=true&area=true&color=8a2be2&line=8a2be2&point=c9d1d9&area_color=8a2be2" width="100%">
+</div>
+
+---
+
+### Contributions
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ichramal/ichramal/output/github-contribution-grid-snake-dark.svg" width="100%">
 </div>
 
 ---
