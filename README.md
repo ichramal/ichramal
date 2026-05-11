@@ -3,7 +3,7 @@
   <br><br>
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=1&pause=99999&color=8A2BE2&center=true&vCenter=true&width=300&height=50&lines=ichramal" alt="name"/>
   <br>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=400&size=16&duration=3500&pause=700&color=8A2BE2&center=true&vCenter=true&width=450&height=40&lines=Full-Stack+Developer;Security+Researcher;Automation+Engineer;Bug+Bounty+Hunter" alt="typing"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=400&size=16&duration=3500&pause=700&color=8A2BE2&center=true&vCenter=true&width=500&height=40&lines=Full-Stack+Developer;API+Architect;Automation+Engineer;Security+Researcher;Bug+Bounty+Hunter" alt="typing"/>
   <br><br>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,6,8&height=4&width=100%" alt="divider"/>
 </div>
@@ -12,37 +12,38 @@
 
 <p align="center">
   <a href="https://ichramal.ct.ws"><img src="https://img.shields.io/badge/Website-ichramal.ct.ws-6a0dad?style=flat-square&logo=googlechrome&logoColor=white"></a>
-  <a href="mailto:ichramal.dev@gmail.com"><img src="https://img.shields.io/badge/Email-ichramal.dev@gmail.com-6a0dad?style=flat-square&logo=gmail&logoColor=white"></a>
-  <a href="https://github.com/ichramal"><img src="https://img.shields.io/badge/GitHub-@ichramal-6a0dad?style=flat-square&logo=github&logoColor=white"></a>
+  <a href="mailto:ichramal.dev@gmail.com"><img src="https://img.shields.io/badge/Email-ichramal.dev%40gmail.com-6a0dad?style=flat-square&logo=gmail&logoColor=white"></a>
+  <a href="https://github.com/ichramal"><img src="https://img.shields.io/badge/GitHub-ichramal-6a0dad?style=flat-square&logo=github&logoColor=white"></a>
 </p>
 
 <br>
 
-### 👨‍💻 About Me
+### About Me
+
+I build web applications, design APIs, and develop automation solutions. I also hunt bugs and research vulnerabilities as a security researcher.
 
 <table width="100%">
   <tr>
     <td width="50%">
-      <b>Full-Stack Developer</b> — Web uygulamaları, API'ler ve otomasyon çözümleri geliştiriyorum.
+      <b>Web Development</b> — HTML, CSS, JavaScript, PHP, React, Node.js
       <br><br>
-      <b>Security Researcher</b> — Bug bounty & pentesting ile uğraşıyorum, zafiyet avcılığı yapıyorum.
+      <b>API Architecture</b> — RESTful services, third-party integrations, microservices
       <br><br>
-      <b>Database Administrator</b> — SQL/NoSQL veritabanı yönetimi, optimizasyon ve migrasyon.
+      <b>Automation</b> — Python, Bash, PowerShell, CI/CD pipelines
     </td>
     <td width="50%">
-      <b>📌 Focus 2026</b>
-      <br>
-      ⚡ Scalable web applications & API architecture<br>
-      🔐 Advanced exploitation & CVE research<br>
-      🤖 DevSecOps pipeline automation<br>
-      🌍 Open-source contributions
+      <b>Database Management</b> — MySQL, PostgreSQL, MongoDB, Redis
+      <br><br>
+      <b>Security Research</b> — Bug bounty hunting, vulnerability assessment, pentesting
+      <br><br>
+      <b>DevOps</b> — Docker, Linux, Nginx, Apache, Cloudflare
     </td>
   </tr>
 </table>
 
 <br>
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white">
@@ -71,7 +72,7 @@
 
 <br>
 
-### 📊 GitHub Stats
+### GitHub Statistics
 
 <div align="center">
   <img height="160em" src="https://github-readme-stats.vercel.app/api?username=ichramal&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d1117&count_private=true&include_all_commits=true&icon_color=8a2be2&title_color=8a2be2&text_color=c9d1d9">
@@ -84,7 +85,7 @@
 
 <br>
 
-### 🎯 Bug Bounty & Security
+### Security & Bug Bounty
 
 <p align="center">
   <img src="https://img.shields.io/badge/TryHackMe-212c42?style=flat-square&logo=tryhackme&logoColor=white">
@@ -93,29 +94,30 @@
   <img src="https://img.shields.io/badge/HackerOne-494649?style=flat-square&logo=hackerone&logoColor=white">
 </p>
 
-<p align="center">
-  ✔ OWASP Top 10  &nbsp;|&nbsp;  ✔ Web Pentesting  &nbsp;|&nbsp;  ✔ Network Security  &nbsp;|&nbsp;  ✔ Social Engineering  &nbsp;|&nbsp;  ✔ Reverse Engineering
-</p>
+```text
+OWASP Top 10        ████████████████████░  95%
+Web Application     ████████████████████░  95%
+Network Security    ███████████████████░░  88%
+Social Engineering  ████████████████████░  92%
+Reverse Engineering ██████████████████░░░  82%
+```
 
 <br>
 
-### 🐍 Contribution Snake
+### Contributions
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ichramal/ichramal/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ichramal/ichramal/output/github-contribution-grid-snake.svg">
-    <img alt="snake" src="https://raw.githubusercontent.com/ichramal/ichramal/output/github-contribution-grid-snake.svg">
-  </picture>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ichramal&theme=react-dark&bg_color=0d1117&hide_border=true&area=true&color=8a2be2&line=8a2be2&point=c9d1d9&area_color=8a2be2" width="100%">
 </div>
 
 <br>
 
-### 📫 Contact
+### Contact
 
 <p align="center">
   <a href="https://ichramal.ct.ws"><img src="https://img.shields.io/badge/ichramal.ct.ws-6a0dad?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1a2e"></a>
-  <a href="mailto:ichramal.dev@gmail.com"><img src="https://img.shields.io/badge/ichramal.dev@gmail.com-6a0dad?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e"></a>
+  <a href="mailto:ichramal.dev@gmail.com"><img src="https://img.shields.io/badge/ichramal.dev%40gmail.com-6a0dad?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e"></a>
+  <a href="https://github.com/ichramal"><img src="https://img.shields.io/badge/github.com%2Fichramal-6a0dad?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e"></a>
 </p>
 
 <br>
@@ -125,6 +127,4 @@
   <br><br>
   <img src="https://komarev.com/ghpvc/?username=ichramal&label=visitors&color=6a0dad&style=flat-square" alt="visitors">
   <img src="https://img.shields.io/github/followers/ichramal?label=followers&style=flat-square&color=6a0dad" alt="followers">
-  <br><br>
-  <sub>ichramal</sub>
 </div>
