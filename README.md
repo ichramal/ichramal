@@ -93,6 +93,14 @@ Building web applications, designing APIs, managing databases, and writing autom
 
 ---
 
+### Currently Playing
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ichramal/ichramal/main/dist/spotify.svg" width="400">
+</div>
+
+---
+
 ### Security Research
 
 <p align="center">
