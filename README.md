@@ -97,8 +97,16 @@ Building web applications, designing APIs, managing databases, and writing autom
 ### Currently Playing
 
 <div align="center">
-  <a href="https://open.spotify.com/track/7uLz3wJ1fVwL7JfScdMX6R" target="_blank">
-    <img src="https://raw.githubusercontent.com/ichramal/ichramal/main/dist/spotify.svg" width="400">
+  <a href="https://open.spotify.com/track/7uLz3wJ1fVwL7JfScdMX6R" target="_blank" style="text-decoration: none;">
+    <span style="display: inline-block; background: #121212; padding: 14px 24px 14px 14px; border-radius: 12px; border: 1px solid #2a2a2a;">
+      <img src="https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79" width="52" height="52" align="left" style="border-radius: 6px; margin-right: 14px;">
+      <span style="display: inline-block;">
+        <span style="color: #6a0dad; font-size: 11px; font-weight: bold; letter-spacing: 1.5px;">SPOTIFY</span><br>
+        <span style="color: #fff; font-size: 15px; font-weight: bold;">Let It Happen</span><br>
+        <span style="color: #b3b3b3; font-size: 13px;">Tame Impala</span>
+      </span>
+      <span style="display: inline-block; background: #1DB954; width: 36px; height: 36px; border-radius: 50%; text-align: center; line-height: 36px; margin-left: 20px; vertical-align: middle;">&#9654;</span>
+    </span>
   </a>
 </div>
 
