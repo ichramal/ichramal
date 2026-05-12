@@ -16,11 +16,9 @@
 
 ### About
 
-I build things that work — websites, bots, APIs, automation systems, databases, you name it. No "one trick pony" here, I jump between frontend, backend, and infrastructure depending on what the project needs. Over time I've put together a bunch of web applications, automation pipelines, and API integrations that actually solved problems (not just toy projects).
+I build websites, bots, APIs, automation systems, and databases — whatever the project requires. I work across frontend, backend, and infrastructure, with experience building real-world web applications, automation pipelines, and API integrations.
 
-On the security side, I hunt bugs and find gaps — collected my share of bounties, poked through web applications for vulnerabilities, and ran enough recon to know where to look. Always learning, always breaking things (ethically).
-
-Whether you need a developer who gets things done, someone who can talk to both the product team and the terminal, or just a solid pair of hands across the stack — I'm your person.
+On the security side, I hunt vulnerabilities, collect bug bounties, and run recon on web targets. Always learning and adapting to new tools and attack surfaces.
 
 ---
 
