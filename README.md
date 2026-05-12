@@ -3,7 +3,7 @@
 </p>
 
 <div align="center">
-  <sub>Full-Stack Developer  ·  Security Researcher  ·  Automation Engineer</sub>
+  <sub>Web Developer  ·  Bot & API Builder  ·  Security Researcher</sub>
   <br><br>
   <a href="https://ichramal.ct.ws"><img src="https://img.shields.io/badge/Website-ichramal.ct.ws-6a0dad?style=flat-square&logo=globe&logoColor=white"></a>
   <a href="mailto:ichramal.dev@gmail.com"><img src="https://img.shields.io/badge/Email-ichramal.dev%40gmail.com-6a0dad?style=flat-square&logo=gmail&logoColor=white"></a>
@@ -16,15 +16,16 @@
 
 ### About
 
-Full-stack developer with a focus on building clean, functional web applications and automation systems. I work across the stack — frontend (HTML/CSS/JS, React, Bootstrap/Tailwind), backend (Node.js, PHP, Python), and databases (MySQL, PostgreSQL, MongoDB). On the infrastructure side, I manage Linux servers, Docker containers, and reverse proxies with Nginx and Apache.
+Web developer, bot developer, API builder, and automation enthusiast. I build websites, design interfaces, write backend services, manage databases, and create bots and automation pipelines. There's no single "specialty" — I use whatever works for the task at hand.
 
-Beyond development, I'm active in bug bounty and security research — running recon tools, analyzing attack surfaces, and studying OWASP-class vulnerabilities. I also write PowerShell and Bash scripts to automate repetitive tasks, because I'd rather spend time building than clicking.
+I've built numerous web applications, automation systems, and API integrations. On the security side, I've collected bug bounties, discovered vulnerabilities across web targets, and run recon and exploitation scans.
 
 ---
 
 ### Tech Stack
 
 **Frontend**  
+<p align="center">
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
@@ -32,22 +33,28 @@ Beyond development, I'm active in bug bounty and security research — running r
 <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
 <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white">
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+</p>
 
 **Backend & API**  
+<p align="center">
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
 <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white">
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
 <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white">
 <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white">
+</p>
 
 **Database**  
+<p align="center">
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white">
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white">
 <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white">
 <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
+</p>
 
 **Security**  
+<p align="center">
 <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white">
 <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white">
 <img src="https://img.shields.io/badge/Nmap-0047AB?style=for-the-badge&logo=nmap&logoColor=white">
@@ -56,14 +63,17 @@ Beyond development, I'm active in bug bounty and security research — running r
 <img src="https://img.shields.io/badge/Censys-2B6CB0?style=for-the-badge&logo=unrealengine&logoColor=white">
 <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white">
 <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white">
+</p>
 
 **Infrastructure**  
+<p align="center">
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
 <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white">
 <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white">
 <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white">
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+</p>
 
 ---
 
