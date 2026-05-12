@@ -16,9 +16,11 @@
 
 ### About
 
-Web developer, bot developer, API builder, and automation enthusiast. I build websites, design interfaces, write backend services, manage databases, and create bots and automation pipelines. There's no single "specialty" — I use whatever works for the task at hand.
+I build things that work — websites, bots, APIs, automation systems, databases, you name it. No "one trick pony" here, I jump between frontend, backend, and infrastructure depending on what the project needs. Over time I've put together a bunch of web applications, automation pipelines, and API integrations that actually solved problems (not just toy projects).
 
-I've built numerous web applications, automation systems, and API integrations. On the security side, I've collected bug bounties, discovered vulnerabilities across web targets, and run recon and exploitation scans.
+On the security side, I hunt bugs and find gaps — collected my share of bounties, poked through web applications for vulnerabilities, and ran enough recon to know where to look. Always learning, always breaking things (ethically).
+
+Whether you need a developer who gets things done, someone who can talk to both the product team and the terminal, or just a solid pair of hands across the stack — I'm your person.
 
 ---
 
