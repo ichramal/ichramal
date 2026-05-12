@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ichramal/ichramal/main/dist/last-supper.jpg" width="100%" style="border-radius:8px;max-width:800px">
+  <img src="https://raw.githubusercontent.com/ichramal/ichramal/main/dist/banner.jpg" width="100%" style="border-radius:8px;max-width:800px">
 </p>
 
 <div align="center">
