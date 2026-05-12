@@ -24,7 +24,7 @@ I've built numerous web applications, automation systems, and API integrations. 
 
 ### Tech Stack
 
-**Frontend**  
+<p align="center"><strong>Frontend</strong></p>
 <p align="center">
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
@@ -35,7 +35,7 @@ I've built numerous web applications, automation systems, and API integrations. 
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 </p>
 
-**Backend & API**  
+<p align="center"><strong>Backend &amp; API</strong></p>
 <p align="center">
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
 <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white">
@@ -44,7 +44,7 @@ I've built numerous web applications, automation systems, and API integrations. 
 <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white">
 </p>
 
-**Database**  
+<p align="center"><strong>Database</strong></p>
 <p align="center">
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white">
@@ -53,7 +53,7 @@ I've built numerous web applications, automation systems, and API integrations. 
 <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
 </p>
 
-**Security**  
+<p align="center"><strong>Security</strong></p>
 <p align="center">
 <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white">
 <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white">
@@ -65,7 +65,7 @@ I've built numerous web applications, automation systems, and API integrations. 
 <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white">
 </p>
 
-**Infrastructure**  
+<p align="center"><strong>Infrastructure</strong></p>
 <p align="center">
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
