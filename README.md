@@ -89,7 +89,7 @@ In short: I build things end-to-end, connect them where needed, and break them w
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=ichramal&theme=midnight-purple&hide_border=true">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=ichramal&theme=midnight-purple&hide_border=true&background=0d1117">
 </div>
 
 <div align="center">
