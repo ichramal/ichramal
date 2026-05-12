@@ -84,12 +84,12 @@ In short: I build things end-to-end, connect them where needed, and break them w
 ### GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ichramal&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d1117&count_private=true&include_all_commits=true&icon_color=8a2be2&title_color=8a2be2&text_color=c9d1d9">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ichramal&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=8a2be2&text_color=c9d1d9&langs_count=6">
+  <img src="https://github-readme-stats.vercel.app/api?username=ichramal&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true&include_all_commits=true">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ichramal&layout=compact&theme=midnight-purple&hide_border=true&langs_count=6">
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=ichramal&theme=midnight-purple&hide_border=true&background=0d1117&fire=8a2be2&ring=8a2be2&currStreakLabel=8a2be2">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=ichramal&theme=midnight-purple&hide_border=true">
 </div>
 
 <div align="center">
@@ -97,7 +97,7 @@ In short: I build things end-to-end, connect them where needed, and break them w
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ichramal&theme=react-dark&bg_color=0d1117&hide_border=true&area=true&color=8a2be2&line=8a2be2&point=c9d1d9&area_color=8a2be2" width="100%">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ichramal&theme=react-dark&hide_border=true&area=true" width="100%">
 </div>
 
 ---
