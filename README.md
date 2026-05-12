@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg/1200px-Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg" width="100%" style="border-radius:8px;max-width:800px">
+  <img src="https://raw.githubusercontent.com/ichramal/ichramal/main/dist/last-supper.jpg" width="100%" style="border-radius:8px;max-width:800px">
 </p>
 
 <div align="center">
