@@ -1,10 +1,8 @@
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg/1200px-Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg" width="100%" style="border-radius:8px;max-width:800px">
+</p>
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,6,8&height=4&width=100%">
-  <br><br>
-  <a href="https://ichramal.ct.ws">
-    <img src="https://raw.githubusercontent.com/ichramal/ichramal/main/dist/header.svg" width="540">
-  </a>
-  <br><br>
   <sub>Full-Stack Developer  ·  Security Researcher  ·  Automation Engineer</sub>
   <br><br>
   <a href="https://ichramal.ct.ws"><img src="https://img.shields.io/badge/Website-ichramal.ct.ws-6a0dad?style=flat-square&logo=globe&logoColor=white"></a>
