@@ -100,18 +100,7 @@ Building web applications, designing APIs, managing databases, and writing autom
 
 <div align="center">
   <a href="https://open.spotify.com/track/7uLz3wJ1fVwL7JfScdMX6R" target="_blank">
-    <table cellpadding="0" cellspacing="0" bgcolor="#121212" style="border-collapse: collapse; display: inline-table;">
-      <tr>
-        <td style="padding: 0 0 0 14px;">
-          <img src="https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79" width="52" height="52" style="border-radius: 6px; display: block;">
-        </td>
-        <td style="padding: 0 20px 0 14px;">
-          <span style="color: #6a0dad; font-size: 11px; font-weight: bold; letter-spacing: 1.5px;">SPOTIFY</span><br>
-          <span style="color: #ffffff; font-size: 15px; font-weight: bold;">Let It Happen</span><br>
-          <span style="color: #b3b3b3; font-size: 13px;">Tame Impala</span>
-        </td>
-      </tr>
-    </table>
+    <img src="https://raw.githubusercontent.com/ichramal/ichramal/main/dist/spotify.svg" width="400">
   </a>
 </div>
 
