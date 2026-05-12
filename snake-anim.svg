@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="800" height="120">
+  <rect width="800" height="120" fill="#0d1117" rx="8"/>
+
+  <!-- Snake body segments -->
+  <g fill="#6a0dad">
+    <circle cx="60" cy="60" r="8">
+      <animate attributeName="cx" values="60;160;260;360;460;560;660;740" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="60;60;60;60;60;60;60;60" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60" cy="60" r="7">
+      <animate attributeName="cx" values="40;140;240;340;440;540;640;720" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="60;60;60;60;60;60;60;60" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60" cy="60" r="6">
+      <animate attributeName="cx" values="20;120;220;320;420;520;620;700" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="60;60;60;60;60;60;60;60" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60" cy="60" r="5">
+      <animate attributeName="cx" values="0;100;200;300;400;500;600;680" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="60;60;60;60;60;60;60;60" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Snake head -->
+  <circle cx="80" cy="60" r="9" fill="#8a2be2">
+    <animate attributeName="cx" values="80;180;280;380;480;580;680;760" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="60;60;60;60;60;60;60;60" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="84" cy="57" r="2" fill="#fff">
+    <animate attributeName="cx" values="84;184;284;384;484;584;684;764" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="57;57;57;57;57;57;57;57" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Contribution dots -->
+  <g fill="#1a1a2e" opacity="0.3">
+    <rect x="150" y="30" width="10" height="10" rx="2"><animate attributeName="fill" values="#1a1a2e;#1a1a2e;#1a1a2e;#1a1a2e;#0e4429;#0e4429;#0e4429;#1a1a2e" dur="4s" repeatCount="indefinite"/></rect>
+    <rect x="170" y="50" width="10" height="10" rx="2"><animate attributeName="fill" values="#1a1a2e;#1a1a2e;#1a1a2e;#1a1a2e;#006d32;#006d32;#1a1a2e;#1a1a2e" dur="4s" repeatCount="indefinite"/></rect>
+    <rect x="200" y="40" width="10" height="10" rx="2"><animate attributeName="fill" values="#1a1a2e;#1a1a2e;#1a1a2e;#26a641;#26a641;#1a1a2e;#1a1a2e;#1a1a2e" dur="4s" repeatCount="indefinite"/></rect>
+    <rect x="230" y="60" width="10" height="10" rx="2"><animate attributeName="fill" values="#1a1a2e;#1a1a2e;#1a1a2e;#39d353;#39d353;#39d353;#1a1a2e;#1a1a2e" dur="4s" repeatCount="indefinite"/></rect>
+    <rect x="300" y="35" width="10" height="10" rx="2"><animate attributeName="fill" values="#1a1a2e;#1a1a2e;#0e4429;#0e4429;#0e4429;#1a1a2e;#1a1a2e;#1a1a2e" dur="4s" repeatCount="indefinite"/></rect>
+    <rect x="330" y="55" width="10" height="10" rx="2"><animate attributeName="fill" values="#1a1a2e;#006d32;#006d32;#006d32;#006d32;#1a1a2e;#1a1a2e;#1a1a2e" dur="4s" repeatCount="indefinite"/></rect>
+    <rect x="400" y="30" width="10" height="10" rx="2"><animate attributeName="fill" values="#1a1a2e;#1a1a2e;#1a1a2e;#26a641;#26a641;#26a641;#26a641;#1a1a2e" dur="4s" repeatCount="indefinite"/></rect>
+    <rect x="450" y="60" width="10" height="10" rx="2"><animate attributeName="fill" values="#1a1a2e;#1a1a2e;#39d353;#39d353;#1a1a2e;#1a1a2e;#1a1a2e;#1a1a2e" dur="4s" repeatCount="indefinite"/></rect>
+    <rect x="500" y="40" width="10" height="10" rx="2"><animate attributeName="fill" values="#1a1a2e;#0e4429;#0e4429;#0e4429;#0e4429;#0e4429;#1a1a2e;#1a1a2e" dur="4s" repeatCount="indefinite"/></rect>
+    <rect x="550" y="50" width="10" height="10" rx="2"><animate attributeName="fill" values="#1a1a2e;#1a1a2e;#006d32;#006d32;#006d32;#1a1a2e;#1a1a2e;#1a1a2e" dur="4s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- Trail behind snake -->
+  <g fill="#4a0080" opacity="0.3">
+    <circle r="6">
+      <animate attributeName="cx" values="0;100;200;300;400;500;600;680" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="60;60;60;60;60;60;60;60" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Eaten food animation -->
+  <g>
+    <circle r="3" fill="#39d353">
+      <animate attributeName="cx" values="230;230;230;230;230" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="60;60;60;60;60" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;0;0" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#26a641">
+      <animate attributeName="cx" values="400;400;400;400;400" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="30;30;30;30;30" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;0;1;1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
