@@ -16,9 +16,13 @@
 
 ### About
 
-I build websites, bots, APIs, automation systems, and databases — whatever the project requires. I work across frontend, backend, and infrastructure, with experience building real-world web applications, automation pipelines, and API integrations.
+I develop and deploy web applications, design and consume APIs, build automation systems and bots, and manage databases across relational and document-based systems. I work across the full stack — frontend interfaces, backend services, and infrastructure — and I'm comfortable picking up whatever tool or language the task demands.
 
-On the security side, I hunt vulnerabilities, collect bug bounties, and run recon on web targets. Always learning and adapting to new tools and attack surfaces.
+My day-to-day involves translating requirements into working software: setting up servers and reverse proxies, wiring up APIs, writing scripts to eliminate repetitive work, and ensuring databases are structured and performant. I've delivered multiple end-to-end web projects, automation pipelines, and API integrations that are still in active use.
+
+In security, I identify and report vulnerabilities through responsible disclosure and bug bounty programs — running recon, analyzing attack surfaces, and documenting findings clearly. I keep up with common exploitation paths and OWASP-class weaknesses.
+
+I approach development pragmatically: understand the problem, pick the right tool, ship clean code, and iterate.
 
 ---
 
