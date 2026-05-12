@@ -144,6 +144,5 @@ Reverse Engineering ██████████████████░░
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,6,8&height=4&width=100%">
   <br><br>
-  <img src="https://komarev.com/ghpvc/?username=ichramal&label=visitors&color=6a0dad&style=flat-square">
-  <img src="https://img.shields.io/github/followers/ichramal?label=followers&style=flat-square&color=6a0dad">
+  <img src="https://api.visitorbadge.io/api/visitors?path=ichramal&label=visitors&countColor=%236a0dad&labelColor=%230d1117">
 </div>
