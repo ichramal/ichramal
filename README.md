@@ -16,7 +16,9 @@
 
 ### About
 
-Building web applications, designing APIs, managing databases, and writing automation scripts. Also active in bug bounty and security research.
+Full-stack developer with a focus on building clean, functional web applications and automation systems. I work across the stack — frontend (HTML/CSS/JS, React, Bootstrap/Tailwind), backend (Node.js, PHP, Python), and databases (MySQL, PostgreSQL, MongoDB). On the infrastructure side, I manage Linux servers, Docker containers, and reverse proxies with Nginx and Apache.
+
+Beyond development, I'm active in bug bounty and security research — running recon tools, analyzing attack surfaces, and studying OWASP-class vulnerabilities. I also write PowerShell and Bash scripts to automate repetitive tasks, because I'd rather spend time building than clicking.
 
 ---
 
