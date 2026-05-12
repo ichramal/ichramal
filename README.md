@@ -84,8 +84,8 @@ In short: I build things end-to-end, connect them where needed, and break them w
 ### GitHub Analytics
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ichramal&theme=midnight_purple">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ichramal&theme=midnight_purple">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ichramal&theme=github_dark">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ichramal&theme=github_dark">
 </div>
 
 <div align="center">
