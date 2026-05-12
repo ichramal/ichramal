@@ -1,7 +1,9 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,6,8&height=4&width=100%">
   <br><br>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,6,8&height=60&text=ichramal&fontSize=36&fontAlignY=34&animation=twinkling&fontColor=fff">
+  <a href="https://ichramal.ct.ws">
+    <img src="https://raw.githubusercontent.com/ichramal/ichramal/main/dist/header.svg" width="540">
+  </a>
   <br><br>
   <sub>Full-Stack Developer  ·  Security Researcher  ·  Automation Engineer</sub>
   <br><br>
