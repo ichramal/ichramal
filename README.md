@@ -5,7 +5,7 @@
 <div align="center">
   <sub>Web Developer  ·  Bot & API Builder  ·  Security Researcher</sub>
   <br><br>
-  <a href="https://ichramal.ct.ws"><img src="https://img.shields.io/badge/Website-ichramal.ct.ws-6a0dad?style=flat-square&logo=globe&logoColor=white"></a>
+  <a href="https://ichramal.tr"><img src="https://img.shields.io/badge/Website-ichramal.tr-6a0dad?style=flat-square&logo=globe&logoColor=white"></a>
   <a href="mailto:ichramal.dev@gmail.com"><img src="https://img.shields.io/badge/Email-ichramal.dev%40gmail.com-6a0dad?style=flat-square&logo=gmail&logoColor=white"></a>
   <a href="https://github.com/ichramal"><img src="https://img.shields.io/badge/GitHub-ichramal-6a0dad?style=flat-square&logo=github&logoColor=white"></a>
 </div>
